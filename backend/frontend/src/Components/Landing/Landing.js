@@ -49,7 +49,7 @@ class Landing extends React.Component {
             <Container className="landing" style={this.props.isDark === true ? dark : light} fluid>
                 <Row>
                     <Col md={7} className="image my-auto">
-                        <h1 className="text-center">Declutter Your Schedule</h1>
+                        <h1 className="text-center">Simplify Your Schedule</h1>
                         <Image src={Logo} fluid></Image>
                         <h5 className="text-center">Your Busy Life Deserves This</h5>
                     </Col>
