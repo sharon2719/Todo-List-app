@@ -18,19 +18,6 @@ from rest_framework.response import Response
 from rest_framework import viewsets
 from rest_framework.permissions import AllowAny,IsAuthenticated
 from rest_framework.authtoken.models import Token
-# class TodoItemsView(viewsets.ModelViewSet): #performs automatic CRUD ops
-#     serializer_class=TodoItemSerializer
-#     queryset=TodoItem.objects.all()
-#     permission_classes=(IsAuthenticated,) #only allow CRUD if user has already logged in
-
-#     def perform_create(self, serializer):
-#         item_user=UserSerializer(self.request.user).data
-#         y,m,d,h,mi,s=request.get("due_date_time").split(" ")
-#         date_time_obj=datetime.datetime(year=y,month=m,day=d,hour=h,minute=m,second=s)
-
-#######################################################################
-# User related operations
-#######################################################################
 
 # User Login
 @csrf_exempt
